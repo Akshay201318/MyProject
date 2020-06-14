@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="Calculator.css">
+    </head>
+    <body>
+         <div id="ndiv">
+            <span id="name">CALCULATOR</span>
+        </div>
+          <div id="main">
+              
+              <div id="display">
+                     <div  id="d-para" class="para">
+                          0
+                     </div>
+              </div>
+              <button class="btn" id="btn16">
+                <div id="pb16" class="para">AC</div>
+             </button> 
+             <button class="btn" id="btn17">
+                <div id="pb17" class="para">+/-</div>
+             </button> 
+             <button class="btn" id="btn18">
+                <div id="pb18" class="para">%</div>
+             </button>
+             <button class="btn" id="btn19" class="red">
+                <div id="pb19" class="para">*</div>
+             </button>  
+              <button class="btn" id="btn1">
+                     <div id="pb1" class="para">7</div>
+            </button>
+            <button class="btn" id="btn2">
+                <div id="pb2" class="para">8</div>
+            </button>
+            <button class="btn" id="btn3">
+                <div id="pb3" class="para">9</div>
+            </button>
+            <button class="btn" id="btn4" class="red">
+                <div id="pb4" class="para" >/</div>
+            </button>
+            <button class="btn" id="btn5">
+                <div id="pb5" class="para">4</div>
+            </button>
+            <button class="btn" id="btn6">
+                <div id="pb6" class="para">5</div>
+            </button>
+            <button class="btn" id="btn7">
+                <div id="pb7" class="para">6</div>
+            </button>
+            <button class="btn" id="btn8" class="red">
+                <div id="pb8" class="para">+</div>
+            </button>
+            <button class="btn" id="btn9">
+                <div id="pb9" class="para">1</div>
+            </button>
+            <button class="btn" id="btn10">
+                <div id="pb10" class="para">2</div>
+            </button>
+            <button class="btn" id="btn11">
+                <div id="pb11" class="para">3</div>
+            </button>
+            <button class="btn" id="btn12" class="red">
+                <div id="pb12" class="para">-</div>
+            </button>
+            <button class="btn" id="btn13">
+                <div id="pb13" class="para">0</div>
+            </button>
+            <button class="btn" id="btn14">
+                <div id="pb14" class="para">.</div>
+            </button>
+            <button class="btn" id="btn15" class="red">
+                <div id="pb15" class="para">=</div>
+            </button>
+          </div>
+
+        <script src="Calculator.js"></script>
+    </body>
+</html>
