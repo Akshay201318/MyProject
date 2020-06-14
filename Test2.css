@@ -1,0 +1,133 @@
+body
+{
+    background-color:lightgrey;
+}
+.head
+{
+    font-size: 30px;
+}
+.para
+{
+    color:grey;
+}
+.itms
+{
+ display:flex;
+ flex-direction: column;
+ height:auto;
+ width:100%;
+
+}
+.item-name
+{
+    width:100%;
+    height:auto;
+    background-color:blueviolet;
+    color:white;
+    
+    padding:10px;
+    
+    display:flex;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: flex-start;
+    border:1px solid grey;
+}
+.item-name:hover
+{
+    background-color: blue;
+}
+.btn
+{
+    width:100%;
+    height:auto;
+}
+.text
+{
+    width:100%;
+    height:0px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    transition: 0.4s;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+#cont:checked + label .text
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height:auto;
+}
+#cont1:checked + label .text
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height:auto;
+}
+#cont2:checked + label .text
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height:auto;
+}
+#cont
+{
+    display:none;
+}
+#cont1
+{
+    display:none;
+}
+#cont2
+{
+    display:none;
+}
+#cont4
+{
+    display:none;
+}
+#cont5
+{
+    display:none;
+}
+#cont6
+{
+    display:none;
+}
+#cont4:checked + label .text
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height:auto;
+}
+#cont5:checked + label .text
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height:auto;
+}
+#cont6:checked + label .text
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height:auto;
+}
+
+.item-name
+{
+    display:flex;
+    justify-content: space-between;
+}
+.icon
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 20px;
+}

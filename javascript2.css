@@ -1,0 +1,67 @@
+#main
+{
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding:0px;
+    border-top:20px solid black;
+    border-bottom:20px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    width:100vw;
+
+}
+#outer
+{
+    align-self: center;
+    height:200px;
+    width:200px;
+    display:flex;
+    background-color: blue;
+    border-radius: 50%;
+    justify-content: center;
+}
+#inner
+{
+    height:100px;
+    width:100px;
+    background-color: white;
+    align-self: center;
+}
+#bdiv
+{
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+#btn1
+{
+    height:50px;
+    width:200px;
+    display:block;
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#btn2
+{
+    height:50px;
+    width:200px;
+    display:block;
+    align-self: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn1:hover{
+    box-shadow: darkgray;
+    box-shadow: 5px 5px 5px  grey;
+}
+#btn2:hover{
+    box-shadow: darkgray;
+    box-shadow: 5px 5px 5px  grey;
+}

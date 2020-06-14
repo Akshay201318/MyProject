@@ -1,0 +1,19 @@
+#box
+{
+    height:200px;
+    width:200px;
+    align-self: center;
+}
+#para
+{
+    align-self: center;
+}
+#main
+{
+    height:100Vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
